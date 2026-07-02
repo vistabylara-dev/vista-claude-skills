@@ -1,37 +1,23 @@
-# Claude Skills Library
+# Vista Claude Skills
 
-Welcome to the Vista by Lara Claude Skills collection.
+Hero
 
-## Available Skills
+Quick Install
 
-| Skill | Description |
-|--------|-------------|
-| Shopify GEO Audit | Audit Shopify stores for AI visibility, GEO, SEO, schema, and technical quality. |
-| Google Ads Audit | Audit Google Ads accounts for tracking, campaign structure, and AI readiness. |
+Why this Repository?
 
----
+Skill Categories
 
-## Coming Soon
+Featured Skills
 
-- Meta Ads Audit
-- AI Visibility Audit
-- Cloudflare Workers Audit
-- Next.js SEO Audit
-- Technical SEO Audit
-- Local SEO Audit
-- JSON-LD Generator
-- FAQ Schema Generator
-- llms.txt Generator
-- robots.txt Validator
-- sitemap.xml Validator
-- Shopify Speed Audit
-- Shopify CRO Audit
-- Entity SEO Audit
-- AI Content Reviewer
-- AI Recommendation Readiness Audit
+Installation
 
----
+Repository Structure
 
-Created by Vista by Lara
+Roadmap
 
-https://www.vistabylara.com
+Contributing
+
+License
+
+About Vista by Lara
