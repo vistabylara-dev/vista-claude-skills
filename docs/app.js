@@ -18,4 +18,4 @@ form.addEventListener('submit',e=>{e.preventDefault();render();document.getEleme
 document.getElementById('copy').addEventListener('click',async()=>{if(!current)return;try{await navigator.clipboard.writeText(current.summary);text('status','Summary copied. Add your theme name and public page URL before sharing.');}catch{text('status','Copy is unavailable in this browser. Use Print / save PDF to keep the result.');}});
 document.getElementById('print').addEventListener('click',()=>window.print());
 function fromHash(){const id=location.hash.slice(1);if(topics.some(t=>t.id===id)){problem.value=id;render();}}
-window.addEventListener('hashchange',fromHash);fromHash();
+window.addEventListener('hashchange',()=>{fromHash();if(current)document.getElementById('result-title').focus();});fromHash();
