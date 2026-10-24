@@ -2,6 +2,10 @@
 
 Free production-ready Claude Skills for developers, marketers, Shopify experts, and AI professionals.
 
+## Try the free Shopify Help Finder
+
+**[Open the interactive Help Finder](https://vistabylara-dev.github.io/vista-claude-skills/)** — choose a problem, device and recent change. Get focused checks, a relevant code guide and a help summary you can copy or print. No email or store login required. This is guided troubleshooting, not an automated inspection.
+
 ## Free Shopify troubleshooting for store owners | مساعدة مجانية لمتاجر Shopify
 
 هل تواجه مشكلة في القالب أو صفحة المنتج أو عرض المتجر على الهاتف؟ [اختر المشكلة من دليلنا](https://github.com/vistabylara-dev/vista-claude-skills/discussions/3#discussioncomment-19162049) أو [اطرح سؤالك بالعربية أو الإنجليزية](https://github.com/vistabylara-dev/vista-claude-skills/discussions/2).
