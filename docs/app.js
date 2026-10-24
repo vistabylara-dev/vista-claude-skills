@@ -19,3 +19,4 @@ document.getElementById('copy').addEventListener('click',async()=>{if(!current)r
 document.getElementById('print').addEventListener('click',()=>window.print());
 function fromHash(){const id=location.hash.slice(1);if(topics.some(t=>t.id===id)){problem.value=id;render();}}
 window.addEventListener('hashchange',()=>{fromHash();if(current)document.getElementById('result-title').focus();});fromHash();
+document.querySelectorAll('#library a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();problem.value=link.getAttribute('href').slice(1);render();document.getElementById('result-title').focus();result.scrollIntoView({block:'start',behavior:'instant'});}));
